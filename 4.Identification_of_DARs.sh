@@ -1,10 +1,10 @@
 # Identify DARs
 macs3 callpeak -f BAMPE \
-               -t ${treat} \
-               -c gdna.bam \
+               -t treat_A.bam \
+               -c treat_B.bam \
                -g 1.35e8 \
-               -n ${treat%.bam} \
-               --outdir ../macs3/${treat%.bam} \
+               -n treatA_vs_treatB_peaks \
+               --outdir ../macs3/treatA_vs_treatB \
                -B \
                -q 0.01
 

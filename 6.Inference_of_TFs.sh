@@ -1,6 +1,8 @@
 # Ensemble Motif bed data is available at:
 # http://bioinformatics.psb.ugent.be/cig_data/motifmappings_ath/
 
+# Detail in https://doi.org/10.1104/pp.19.00605
+
 # find how many TFBSs ($motiffile) overlap with HS sites ($regionBed) using Bedtools
 realNumber = `bedtools intersect -a $motiffile -b $regionBed -u -f 0.5 | wc -l`
 

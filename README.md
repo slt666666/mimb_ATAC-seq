@@ -3,9 +3,9 @@
 ## Sample script and code
 In this repository, we provide sample code and script to perform Comparative ATAC-seq analysis.
 
-The detail information is published in XXX.
+The detail information is published in [Ding et al., 2021](https://doi.org/10.1093/jxb/erab373).
 
-Sample data and intermediate data (outputs of intermediate process) is depositted in Zenodo(XXX).
+Sample data and intermediate data (outputs of intermediate process) is depositted in Zenodo.
 
 * 1.QualityCheck_and_Mapping.sh
 * 2.Identification_of_ACRs.sh

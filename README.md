@@ -5,7 +5,7 @@ In this repository, we provide sample code and script to perform Comparative ATA
 
 The detail information is published in [Ding et al., 2021](https://doi.org/10.1093/jxb/erab373).
 
-Sample data and intermediate data (outputs of intermediate process) is depositted in Zenodo.
+Sample data is depositted in Zenodo (https://doi.org/10.5281/zenodo.7184646).
 
 * 1.QualityCheck_and_Mapping.sh
 * 2.Identification_of_ACRs.sh
